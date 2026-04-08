@@ -1,8 +1,9 @@
+
 ---
 title: "Shading Model"
 icon: "🔦"
 created: 2024-12-08
-updated: 2024-12-16
+updated: 2026-04-08
 ---
 
 # Shading Model
@@ -47,9 +48,10 @@ class ShadingModelToon
         float4 color = 0;
         
         // Direct Lighting
-        for( int i=0; i < DynamicLight::Count(); i++ )
+        LightRange query = Light::Query( ScreenPosition );
+        for ( uint x = 0; x < query.Count; x++ )
         {
-            Light l = DynamicLight::From( ScreenPosition, WorldPosition, i );
+            Light l = Light::Fetch( query, x, WorldPosition, ScreenPosition.xy );
             ...
             
             float3 diffuse = /* */
