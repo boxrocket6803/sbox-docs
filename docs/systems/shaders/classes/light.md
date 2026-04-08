@@ -2,7 +2,7 @@
 title: "Light"
 icon: "💡"
 created: 2024-12-08
-updated: 2024-12-09
+updated: 2026-04-08
 ---
 
 # Light
@@ -14,7 +14,7 @@ If you want to access lighting information directly you can use this.
 Lights can be easily accessed using this class, this already implies going over the surface of what's being drawn.
 
 ```cpp
-struct Light
+class Light
 {
     // The color is an RGB value in the linear sRGB color space.
     float3 Color;
@@ -38,21 +38,22 @@ struct Light
     // 1.0.
     float Visibility;
 
-    // Gets the light structure given the screen-space and world position and
-    // the light index.
-    static Light From( float4 vPositionSs, float3 vPositionWs, uint nLightIndex );
-    
-    // Number of lights in the current fragment.
-    static uint Count( float2 vPositionSs );
+    // Initialize a dynamic light from BinnedLight data
+    void Init( float3 vPositionWs, BinnedLight lightData, float2 vPositionSs );
+
+    // Collect a range of lights to loop over. Use the result with Light::Fetch
+    static LightRange Query( float4 vPositionSs );
+    static Light Fetch( LightRange query, uint index, float3 vPositionWs, float2 vPositionSs, float2 vLightMapUV = 0.0f );
 };
 ```
 
 ### Iterating over all lights
 
 ```cpp
-for( int i=0; i < Light::Count(); i++ )
+LightRange query = Light::Query( ScreenPosition );
+for ( uint x = 0; x < query.Count; x++ )
 {
-    Light l = Light::From( ScreenPosition, WorldPosition, i );
+    Light l = Light::Fetch( query, x, WorldPosition, ScreenPosition.xy );
     ...
 }
 ```
