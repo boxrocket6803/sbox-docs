@@ -14,4 +14,5 @@ jobs:
           curl -s -X POST \
             -H "Authorization: Bearer ${{ secrets.DOCS_WEBHOOK_SECRET }}" \
             -H "Content-Type: application/json" \
+            -d '{}' \
             https://services.facepunch.com/sbox/webhook/incoming/docs
