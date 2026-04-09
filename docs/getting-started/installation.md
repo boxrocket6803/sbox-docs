@@ -9,10 +9,6 @@ updated: 2026-04-09
 
 The s&box editor and game are available to everyone through the developer preview.
 
-## Get Access
-
-Head over to [sbox.game/give-me-that](https://sbox.game/give-me-that), log in and click the button to add it to your Steam account.
-
 ## Install
 
 ![Launch the editor from your Steam library](./images/launch-the-editor-from-your-steam-library.png)
@@ -31,9 +27,3 @@ You can launch s&box in several ways:
 - Launch through Steam directly
 - Use a shortcut to `sbox-dev.exe`
 - Open your `.sbproj` file directly
-
-## System Requirements
-
-- Windows 10 and above (Windows 7 will not work)
-- At least 4GB of RAM, 8GB for the editor
-- A graphics card that isn't older than 12 years (must support Vulkan)

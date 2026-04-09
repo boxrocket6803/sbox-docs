@@ -1,6 +1,8 @@
 items:
 - name: Download & Install
   href: installation.md
+- name: System Requirements
+  href: system-requirements.md
 - name: Your First Project
   href: first-project.md
 - name: Explore the Engine

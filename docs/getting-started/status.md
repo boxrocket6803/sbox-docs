@@ -15,7 +15,7 @@ Here's the current status of key features and missing functionality you'll run i
 |:-----|-------------|
 | Audio | 🟢 Can play sounds, music, voice chat, can play them positionally or 2D.🟢 Audio processing, effects system🟢 Lip sync<br>🟠 No auto voice ducking. |
 | Multiplayer | 🟢 Can create server, join server, sync vars, gameobjects, rpcs🟠 Dedicated server support, no Linux <br>🟠 No error handling, permissions |
-| UI   | 🟢 Razor and Panel class UI, full style sheets, transitions, transforms, animation, world panels<br>🟠 Some intellisense difficulties with .razor files |
+| UI   | 🟢 Razor and Panel class UI, full style sheets, transitions, transforms, animation, world panels |
 | Scenes | 🟢 Can create scene, gameobject, components, play, stop |
 | Controller | 🟢 Controller input<br>🟠 UI navigation with virtual cursor, missing element navigation, on-screen keyboard |
 | Navigation | 🟢 Recast navmesh, agents, pathfinding, links |

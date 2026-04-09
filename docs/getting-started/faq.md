@@ -7,25 +7,19 @@ updated: 2025-09-05
 
 # FAQ
 
-## When will it be released?
+## How do I get it?
 
-We're not in a rush (obviously). I think we'll know when it's ready to be released, and it's probably best not to speculate.
+We'll be releasing [s&box on Steam](https://store.steampowered.com/app/590830/sbox/) on the 28th April for $20.
 
-## How much will it cost?
-
-We don't know. We haven't decided yet.
+Access to the developer preview is now closed — you may or may not get to keep it post release depending on play time, development or skins purchased.
 
 ## Are you using workshop?
 
-No. We're trying to make a system where you don't have to install addons. This is what [sbox.game](https://sbox.game) is. In the same way, you don't have to install videos from YouTube; you just download what you need.
-
-## How can I get access to the developer preview?
-
-Head over to <https://sbox.game/give-me-that>, log in and click the button to add it to your steam account.
+No. We've made a system where you don't have to install addons. This is what [sbox.game](https://sbox.game) is. In the same way, you don't have to install videos from YouTube; you just download what you need.
 
 ## Why not Unity? Why not UE?
 
-We're sentimental about the Source engine. Source2 has a beautiful renderer and brings the engine up to date with tools like ModelDoc and Animgraph.
+We're sentimental about the Source engine. Source 2 has a beautiful renderer and brings the engine up to date with tools like ModelDoc and Animgraph.
 
 It would have been cheaper and easier to do this all on Unity or UE, but we would have loved it less.
 
@@ -33,7 +27,7 @@ It would have been cheaper and easier to do this all on Unity or UE, but we woul
 
 Yes. It's integral. We owe our entire business to the fact that Valve let us monetize. 
 
-Right now there are two ways for our creators to make money. You can [make a cosmetic item](https://sbox.game/ugc/clothing?sort=thumbsup), which then goes for sale in game and you get a cut of it via Steam Workshop. Or you can make a game and [get a cut of the playfund](https://sbox.game/dev/doc/getting-started/monetization/).
+Right now there are two ways for our creators to make money. You can [make a cosmetic item](https://sbox.game/ugc/clothing?sort=thumbsup), which then goes for sale in game and you get a cut of it via Steam Workshop. Or you can make a game and [get a cut of the playfund](/getting-started/monetization.md).
 
 We want to be careful about pushing further. We want you to be able to charge for whatever you want, but we also don't want everything to become pay-to-win like on other platforms.
 

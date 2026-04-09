@@ -21,6 +21,10 @@ Our intention is to let you export the things that you make in our engine and re
 
 Get the s&box editor through Steam and start building. Available to everyone through the developer preview.
 
+## [System Requirements](/getting-started/system-requirements.md)
+
+Minimum and recommended hardware specs to run s&box.
+
 ## [Your First Project](/getting-started/first-project.md)
 
 Create a new game project, add GameObjects and Components, and get something moving on screen.
