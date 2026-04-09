@@ -33,7 +33,7 @@ Go to - `sbox\addons\citizen\Assets\models\citizen_human`
 
 And grab `citizen_human_male_REF.fbx`.
 
- ![](./images/important-files-setup.png " =2516x1712")This is what we use to work on our human versions of our clothing. Like the `citizen_REF.fbx`, it supplies the rig and skinning. 
+![](./images/important-files-setup.png)This is what we use to work on our human versions of our clothing. Like the `citizen_REF.fbx`, it supplies the rig and skinning. 
 
 
 ---
@@ -45,10 +45,10 @@ And grab `citizen_human_male_REF.fbx`.
 
 Firstly, we want to bring the neck loosely up to the same position of the human neck. As well as moving the wrists into position. No need to rotate or resize anything yet.
 
- ![](./images/moving-major-shapes-1.png " =2571x1101")
+![](./images/moving-major-shapes-1.png)
 
 
- ![](./images/moving-major-shapes.png "right-50 =461x308")
+![](./images/moving-major-shapes.png)
 
 
 :::info
@@ -63,9 +63,9 @@ Turning **Connect Only** on when using Soft select, will allow you to adjust the
 This works great when getting the arms quickly morphed without effecting the chest.
 
 
- !['Connect Only' turned ON](./images/connect-only-turned-on.gif " =471x348")
+!['Connect Only' turned ON](./images/connect-only-turned-on.gif)
 
- !['Connect Only' turned OFF](./images/connect-only-turned-off.gif " =471x353")
+!['Connect Only' turned OFF](./images/connect-only-turned-off.gif)
 
 
 :::info
@@ -82,7 +82,7 @@ Any details like buttons, separate meshes, keep removed while morphing the main 
 ![Adjusting clothing details](./images/human_1_02.mp4)
 
 
- ![](./images/moving-details.png " =813x348")
+![](./images/moving-details.png)
 
 Moving the neck closer to the body, adjusting the pockets, this stage I'm focusing on the secondary shapes and details to fit them correctly onto the human body.
 
@@ -99,9 +99,9 @@ Any morphing done will cause stretching and possible distortion of certain detai
 
 ## **Adjustments and Fixes**
 
- ![](./images/adjustments-and-fixes-1.png "left-50 =428x351")
+![](./images/adjustments-and-fixes-1.png)
 
- ![](./images/adjustments-and-fixes.png "right-50 =385x308")When morphing clothing, you'll find areas that are so stretched that you'll need to **add more edge loops** to even it out.
+![](./images/adjustments-and-fixes.png)When morphing clothing, you'll find areas that are so stretched that you'll need to **add more edge loops** to even it out.
 
 
 In this example shirt, you can see the **shoulders**, since they were stretched so far to fit the collar around the neck, the shoulder barely have any edge loops.
@@ -120,7 +120,7 @@ You're heavily morphing a model. Distorted, stretched textures and wobbly topolo
 :::
 
 
- ![](./images/here-you-can-see-the-stretched-human-model-has-some-distorti.png " =2973x1572")
+![](./images/here-you-can-see-the-stretched-human-model-has-some-distorti.png)
 
 
 Here you can see the stretched human model has some distortion in the textures compared to the original citizen version. This can be further adjusted and fixed. Though, we're not expecting miracles, this amount of morphing is going to produce distorted results.
@@ -140,7 +140,7 @@ Older clothing pieces naturally weren't made to be morphed to humans, so had lit
 
 :::
 
- ![](./images/what-to-keep-in-mind.png " =3220x1762")
+![](./images/what-to-keep-in-mind.png)
 
 
 ---
@@ -148,7 +148,7 @@ Older clothing pieces naturally weren't made to be morphed to humans, so had lit
 
 ## Final Checks & Layering
 
- ![](./images/final-checks-layering.png " =2118x1078")
+![](./images/final-checks-layering.png)
 
 Like with the original citizen clothing, we want to test that our clothing fits over and under the other clothing layers. Read the [Layering Clothing](/assets/clothing/layering-clothing.md) page for reference. 
 
@@ -192,7 +192,7 @@ A **female version** of clothing is **not required** for every clothing piece. F
 In cases like a jacket or trousers that completely cover the legs, we can get away with just using the male standard version. 
 
 
- ![](./images/female-human-version.gif " =871x666")
+![](./images/female-human-version.gif)
 
 In this example, the Leotard , most of the body is visible, so we have to want to make a female version, which is simply bringing the waist in and contouring around the chest. 
 
@@ -202,7 +202,7 @@ We want to make sure our female version of clothing isn't any bigger than the ma
 So when editing to make the female version, only edit inwards, bringing in the ribs and under the chest. It's very tempting to just bring the chest out slightly for more silhouette, but it will cause clipping since it's making the clothing bigger.
 
 
- ![](./images/so-when-editing-to-make-the-female-version-only-edit-inward.png " =1327x922")
+![](./images/so-when-editing-to-make-the-female-version-only-edit-inward.png)
 
 
 :::info

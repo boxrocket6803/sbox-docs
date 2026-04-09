@@ -52,7 +52,7 @@ The recommended *maximum* FOV for these is 80° (horizontal) at 16:9. I try to k
 Now that you've bonemerged arms onto our weapons, you can send animgraph inputs to the weapon just like you would with any other model.
 
 
- ![](./images/common-animgraph-parameters.png)
+![](./images/common-animgraph-parameters.png)
 
 
 :::info
@@ -237,7 +237,7 @@ With these parameters at your disposal, there are three ways you can implement g
 Animgraphs can use "Internal Tags" for various purposes (letting parts of the graph communicate with one another without spaghetti wiring) — but there are also "Event Tags" that are sent to the game code to let it know about various events. The most common example is changing the bodygroup of a mesh mid-reload animation, so that a held empty magazine becomes full again.
 
 
- ![](./images/tags.png " =510x315")
+![](./images/tags.png)
 
 
 See [**OnAnimTagEvent**](https://sbox.game/api/Sandbox.SkinnedModelRenderer/OnAnimTagEvent). Tags are passed as a string, as-is; they are effectively "hints" for the code, they don't contain any other data than their name. You won't have to hard-code lengths, timings, etc. and handle logic that scales those timings based on speed scaling parameters. All you have to do is listen for these tags!
@@ -267,7 +267,7 @@ Our animgraphs automatically "weaken" this camera animation by 50% while moving 
 # Replacing weapons with your own
 
 
- ![](./images/replacing-weapons-with-your-own.png " =1514x760")
+![](./images/replacing-weapons-with-your-own.png)
 
 
 You might want to use your own weapon meshes. You can hide them, and then bonemerge (or simply parent) yours on top. For example, as pictured in this image, you could grab v_crowbar, hide the crowbar itself, then add a police baton on top.

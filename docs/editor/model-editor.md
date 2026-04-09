@@ -7,19 +7,19 @@ updated: 2025-11-17
 
 # Model Editor
 
-![](./images/model-editor-1.png " =1920x1080")
+![](./images/model-editor-1.png)
 
 
 The "Model Editor", also known as "ModelDoc", is where you can create and edit model (VMDL) files. This is the modern equivalent of Source 1's .QC files. You can find it under the "Tools" menu.
 
 
- ![](./images/model-editor.png " =509x234")
+![](./images/model-editor.png)
 
 
 Instead of text commands, everything uses nodes. They can be nested.
 
 
- ![](./images/model-editor-2.png " =463x296")
+![](./images/model-editor-2.png)
 
 
 We ship some of our own model sources so you can take a look at them, modify them, and see how everything works. For example, you can find citizen.vmdl at `sbox\addons\citizen\Assets\models\citizen\citizen.vmdl`.
@@ -30,7 +30,7 @@ When downloading cloud assets from the editor, some of their authors may have ch
 
 # Nodes
 
- ![](./images/nodes.png " =526x204")
+![](./images/nodes.png)
 
 
 All nodes are organized into categories. You can click *"show empty categories"* to display them all.
@@ -90,7 +90,7 @@ You may also try to use the [Valve Resource Format](https://github.com/SteamData
 It is recommended you modify location and rotation manually in a separate modelling program. Alternatively, for scale you can use the **ScaleAndMirror** node for scaling your model. If your mesh is static (not skinned to any bones), you can change its position, orientation, and, scale in the same **RenderMeshFile** node you used to import the model:
 
 
- ![](./images/how-do-i-move-scale-a-model-in-modeldoc.png " =387x220")
+![](./images/how-do-i-move-scale-a-model-in-modeldoc.png)
 
 
 

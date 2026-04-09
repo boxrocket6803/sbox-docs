@@ -9,15 +9,15 @@ updated: 2024-11-08
 
 If you want to add your own templates to the GameObject Create menu, it's as simple as enabling "Show In Menu" on a Prefab File:
 
- ![](./images/prefab-templates-1.png " =556x279")
+![](./images/prefab-templates-1.png)
 
 Now you'll see your template as one of the options in the Create menu
 
- ![](./images/prefab-templates.png " =410x521")
+![](./images/prefab-templates.png)
 
 You can make it look nicer by fiddling with the other variables, and even throw it in a sub-menu:
 
- ![](./images/prefab-templates-3.png "left-50 =471x246") ![](./images/prefab-templates-2.png "right-50 =257x233")
+![](./images/prefab-templates-3.png) ![](./images/prefab-templates-2.png)
 
 
 

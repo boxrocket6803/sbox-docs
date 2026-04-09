@@ -7,14 +7,14 @@ updated: 2025-10-02
 
 # PostProcessVolume
 
-![](./images/postprocessvolume.png " =710x456")
+![](./images/postprocessvolume.png)
 
 `PostProcessVolume` It is a component that applies a set of post-processing components when a camera is inside it.
 
 The effect components can be on the same GameObject as the `PostProcessVolume` component, or on a child GameObject.
 
 
- ![](./images/postprocessvolume-1.png " =1321x484")
+![](./images/postprocessvolume-1.png)
 
 # Volume
 

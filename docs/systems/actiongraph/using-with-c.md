@@ -35,15 +35,15 @@ public Action ExampleAction { get; set; }
 
 This will add a property that we can see in the inspector. For a property to be usable as an ActionGraph it must have a [Delegate](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/) type. We're using the type [Action](https://learn.microsoft.com/en-us/dotnet/api/system.action?view=net-8.0) here, which takes in no parameters and returns nothing. Once we do this we can press the "+" to add as many callbacks to the Action as we want.
 
- ![](./images/declaring-the-property-1.png)
+![](./images/declaring-the-property-1.png)
 
 If you only intend to have one callback for your Delegate, you can add the \[SingleAction\] attribute and it will show only the one action in-line without having the option to add/remove others.
 
- ![](./images/declaring-the-property.png)
+![](./images/declaring-the-property.png)
 
 Clicking on the Example Action or Empty Action will open the ActionGraph editor and start editing it.
 
- ![Editing a new ActionGraph](./images/editing-a-new-actiongraph.png " =1021x583")
+![Editing a new ActionGraph](./images/editing-a-new-actiongraph.png)
 
 ### Adding Parameters
 
@@ -56,14 +56,14 @@ public Action<int, string, GameObject> ExampleAction { get; set; }
 
 Opening up the graph, you'll see the root node has a socket for each parameter type, in the order you declared them.
 
- ![Root node with three parameters](./images/root-node-with-three-parameters.png)
+![Root node with three parameters](./images/root-node-with-three-parameters.png)
 
 ### Renaming Parameters
 
 There's a couple of ways to rename the parameters, since "Arg 1", "Arg 2" isn't very helpful. First, you can click on the root node in the editor, and change the socket names and descriptions in the Properties panel.
 
 
- ![Entering custom parameter names in the editor](./images/entering-custom-parameter-names-in-the-editor.png)
+![Entering custom parameter names in the editor](./images/entering-custom-parameter-names-in-the-editor.png)
 
 The other way is to use a custom delegate type:
 
@@ -125,7 +125,7 @@ public Func<int> TestExpression { get; set; }
 Graphs implementing delegates like this will have an Output node, which you'll need to connect to the input without going through any async nodes (like delays).
 
 
- ![A graph that returns a value.](./images/a-graph-that-returns-a-value.png " =1488x313")
+![A graph that returns a value.](./images/a-graph-that-returns-a-value.png)
 
 ## Async Graphs
 

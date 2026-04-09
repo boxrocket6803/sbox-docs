@@ -9,7 +9,7 @@ updated: 2025-11-03
 
 We implement [Recast Navigation](https://github.com/recastnavigation/recastnavigation) in s&box, the industry standard for navmesh generation and navigation agents. It's used in Unreal, Unity and Godot. So if it seems familiar, that's why.\n
 
- ![](./images/navigation.jpg)
+![](./images/navigation.jpg)
 
 
 # What is a NavMesh?
@@ -24,12 +24,12 @@ A NavMesh **is not** a detailed or precise representation of the game world; rat
 
 To create a NavMesh in your scene, just click the Enable NavMesh button in the header.
 
- ![](./images/creating-a-navmesh.png " =813x141")
+![](./images/creating-a-navmesh.png)
 
 You can toggle viewing the generated mesh by clicking the button next to it.
 
 
-[When the mesh is visible, it will update live in the scene editor 1698x940](./images/when-the-mesh-is-visible-it-will-update-live-in-the-scene-ed.mp4)
+![When the mesh is visible, it will update live in the scene editor 1698x940](./images/when-the-mesh-is-visible-it-will-update-live-in-the-scene-ed.mp4)
 
 
 The NavMeshis split up into multiple smaller tiles. The ==yellow== lines represent regular polygon boundaries, while the ==blue== lines represent polygon borders that are also tile boundaries.
@@ -39,7 +39,7 @@ The NavMeshis split up into multiple smaller tiles. The ==yellow== lines represe
 
 You can edit further NavMesh settings by clicking the pencil and paper icon in the NavMesh group in the header.
 
- ![](./images/navmesh-settings.png " =851x607")
+![](./images/navmesh-settings.png)
 
 This allows you to adjust the properties of the mesh, like how steep slopes can be. You can also filter which physics objects are used when generating the mesh.
 

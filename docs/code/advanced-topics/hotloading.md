@@ -32,7 +32,7 @@ Walking the heap can be very slow! Here's some tricks to help speed things up. T
 Enter `hotload_log 2` in the console to get verbose timing information next time you hotload. This will generate a table describing how long it took to process instances of each type, and the total number of those instances. It's sorted by descending processing time, so the biggest culprit should be at the top.
 
 
- ![Output of hotload_log 2](./images/output-of-hotload-log-2.png " =1050x357")
+![Output of hotload_log 2](./images/output-of-hotload-log-2.png)
 
 If the number of instances increases drastically each hotload, you probably have a leak somewhere. For example, you might have a static list that you keep adding to and never clear. `hotload_log 2` lists the static fields through which instances were discovered, to help you find the source of leaks.
 

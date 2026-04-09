@@ -23,7 +23,7 @@ To create an editor project you simply create a folder named "editor" in your pr
 You will get a new project in your IDE called `<projectname>.editor`.
 
 
- ![](./images/creating.png)
+![](./images/creating.png)
 
 
 # Why create an Editor Project

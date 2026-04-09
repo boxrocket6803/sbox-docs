@@ -15,7 +15,7 @@ Creating a game in s&box is easy, but you probably want to know how to do things
 The first step is to create a game project. Open the s&box Game Editor and the project window will appear. Simply click on **New Game Project** and fill out the wizard.
 
 
- ![](./images/creating-a-project.png " =627x417")
+![](./images/creating-a-project.png)
 
 
 # The Scene System
@@ -39,4 +39,4 @@ GameObjects can contain Components. A component provides modular functionality t
 The game developer ultimately creates games by programming new Components and configuring scenes with GameObjects and Components.
 
 
-[Prickly Pete running around with a knife](./images/prickly-pete-running-around-with-a-knife.mp4)
+![Prickly Pete running around with a knife](./images/prickly-pete-running-around-with-a-knife.mp4)

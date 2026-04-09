@@ -7,7 +7,7 @@ updated: 2026-04-03
 
 # Clutter
 
-![](./images/clutter.png " =1920x1080")
+![](./images/clutter.png)
 
 The Clutter System lets you quickly scatter large amounts of small objects like grass, rocks, and debris across your scene. It handles placement, streaming, and GPU-instanced rendering for models automatically.
 

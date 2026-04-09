@@ -7,7 +7,7 @@ updated: 2025-10-02
 
 # FilmGrain
 
-![](./images/filmgrain.png " =1352x565")
+![](./images/filmgrain.png)
 
 The **FilmGrain** component adds simulated film-style grain to the camera output. It's purely visual – it does not affect gameplay or lighting – and is intended to add texture, grit or stylistic noise to the final image.
 

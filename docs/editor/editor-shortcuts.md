@@ -11,7 +11,7 @@ When creating a Tool or Editor Project, it's common to want to be able to trigge
 
 Editor Shortcuts do exactly that, while also giving the user the option to rebind each shortcut themselves.
 
- ![](./images/editor-shortcuts.png)
+![](./images/editor-shortcuts.png)
 
 # Creating a Static Shortcut
 

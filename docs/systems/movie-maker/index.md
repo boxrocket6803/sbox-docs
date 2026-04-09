@@ -7,7 +7,7 @@ updated: 2026-03-18
 
 # Movie Maker
 
-![](./images/movie-maker.png " =1383x871")
+![](./images/movie-maker.png)
 
 Movie Maker is a timeline-based editor to animate properties in a scene. It's ideal for in-game cutscenes, editing trailers, coordinating timed events, and making little animations without leaving the S&box editor.
 

@@ -20,7 +20,7 @@ In this article you'll find out:
 
 If Movie Maker isn't already visible, you can toggle it in the View menu.
 
-[Opening the Movie Editor](./images/opening-the-movie-editor.mp4)
+![Opening the Movie Editor](./images/opening-the-movie-editor.mp4)
 
 It should fit nicely as a tab in the lower panel if you dock it there.
 
@@ -29,7 +29,7 @@ It should fit nicely as a tab in the lower panel if you dock it there.
 
 To edit and preview movies, you'll need a Movie Player component somewhere in your scene. Movie Players decide which objects in the scene should be animated by a particular movie, and control the current playback position.
 
-##  ![](./images/movie-player.png "right-50 =528x369")Creating a Movie Player
+##  ![](./images/movie-player.png)Creating a Movie Player
 
 If you don't have any Movie Players in the current scene, you should see a big button to create one.
 
@@ -41,7 +41,7 @@ You can also add one to a GameObject in the Inspector like any other Component.
 
 Movies can either be embedded inside a Movie Player, or saved as a *.movie* asset.
 
-## Saving & Loading ![](./images/movie-resources.png "left-50 =486x351")
+## Saving & Loading ![](./images/movie-resources.png)
 
 New movies will be embedded in the current Movie Player by default. You can save them as reusable .movie files, or embed a copy of the currently edited .movie, with the File menu.
 
@@ -74,17 +74,17 @@ This track references blocks of time from another movie, helping you organize an
 
 Reference and property tracks can be created by dragging from the hierarchy or inspector into the track list.
 
-[Creating tracks by dragging](./images/creating-tracks-by-dragging.mp4)
+![Creating tracks by dragging](./images/creating-tracks-by-dragging.mp4)
 
 You can also create sub-tracks by right-clicking an existing track, and selecting the tracks you want from the context menu.
 
 
- ![](./images/creating-tracks.png " =613x212")
+![](./images/creating-tracks.png)
 
 Sequence tracks are created automatically when you import a movie: either by right-clicking in the timeline, or through the file menu.
 
 
- ![](./images/creating-tracks-1.png " =784x475")
+![](./images/creating-tracks-1.png)
 
 # Next Steps
 

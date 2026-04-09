@@ -43,7 +43,7 @@ Networking.Connect( lobbyId );
 
 ## Enable GameObject Networking
 
- ![Make a GameObject networked by changing its Network Mode here to Network Object](./images/make-a-gameobject-networked-by-changing-its-network-mode-her.png " =x167")
+![Make a GameObject networked by changing its Network Mode here to Network Object](./images/make-a-gameobject-networked-by-changing-its-network-mode-her.png)
 
 ## Destroy Networked GameObject
 

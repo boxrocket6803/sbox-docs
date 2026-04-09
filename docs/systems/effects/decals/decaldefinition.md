@@ -10,7 +10,7 @@ updated: 2025-06-26
 A DecalDefinition holds what a single Decal should look like. It describes its color, normals, roughness, metalness and ambient occlusion. If you define a Height texture, it will define its parallax too.
 
 
- ![](./images/decaldefinition.png " =684x507")
+![](./images/decaldefinition.png)
 
 
 

@@ -21,7 +21,7 @@ When you save a shader it is automatically recompiled and hotloaded showing you 
 
 The recommended setup for editing shader code is [VSCode](https://code.visualstudio.com/) with the [Slang Extension](https://marketplace.visualstudio.com/items?itemName=shader-slang.slang-language-extension), this gives you a full IDE experience with intellisense which shows you what functions and properties you can use.
 
- ![](./images/code-editor.png " =689x369")
+![](./images/code-editor.png)
 
 Opening your project folder in VSCode will prompt you to install the Slang extension, and automatically sets up file extension assosiations, workspace flavor and search paths.
 

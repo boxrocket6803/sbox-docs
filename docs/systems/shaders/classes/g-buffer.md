@@ -9,7 +9,7 @@ updated: 2025-07-28
 
 Materials that write to Depth PrePass also write to a G-Buffer, if you are using the standard ShadingModel, you just have to make sure you have a `Depth();` mode enabled
 
- ![](./images/g-buffer.png " =1086x641")
+![](./images/g-buffer.png)
 
 It contains minimal information about the object before we do the lighting pass, like it's Normals and Roughness, it can be used in post-processing to do all sorts of effects like accurate Ambient Occlusion and Screen-Space Reflections
 

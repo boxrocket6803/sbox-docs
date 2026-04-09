@@ -7,14 +7,14 @@ updated: 2025-04-14
 
 # NavMesh Links
 
-[Testbed demo scene showing agents traversing links. 1958x950](./images/testbed-demo-scene-showing-agents-traversing-links.mp4)
+![Testbed demo scene showing agents traversing links. 1958x950](./images/testbed-demo-scene-showing-agents-traversing-links.mp4)
 
 # Creating Links
 
 You can create links by adding a NavMeshLink Component to an GameObject.
 
 
-[You can manually edit the properties via the inspector or you can use the editor tools. 1698x828](./images/you-can-manually-edit-the-properties-via-the-inspector-or-yo.mp4)
+![You can manually edit the properties via the inspector or you can use the editor tools. 1698x828](./images/you-can-manually-edit-the-properties-via-the-inspector-or-yo.mp4)
 
 # Agent Link Traversal
 
@@ -22,7 +22,7 @@ You can create links by adding a NavMeshLink Component to an GameObject.
 
 By default agents will linearly interpolate between start/end locations to travers the links.
 
-[Default traversal, agent's simply "fly" across the links. 1698x922](./images/default-traversal-agent-s-simply-fly-across-the-links.mp4)
+![Default traversal, agent's simply "fly" across the links. 1698x922](./images/default-traversal-agent-s-simply-fly-across-the-links.mp4)
 
 We provide virtual functions you can override and events you can subscribe to in order to be informed about agent traversal.\n\nCustom NavMeshLinkComponent:
 
@@ -84,14 +84,14 @@ In the following we provide a few examples for custom traversal, that can be mod
 ### Basic Jump
 
 
-[Agents traversing links via a parabolic jump. 1698x790](./images/agents-traversing-links-via-a-parabolic-jump.mp4)
+![Agents traversing links via a parabolic jump. 1698x790](./images/agents-traversing-links-via-a-parabolic-jump.mp4)
 
 
 `Agent.CurrentLinkTraversal` provides information about the link an agent is currently traversing.
 
 The positional values can be used to drive custom movement and animations. 
 
- ![](./images/basic-jump.png " =1689x778")
+![](./images/basic-jump.png)
 
 
 ```csharp
@@ -163,7 +163,7 @@ public sealed class JumpLink : NavMeshLink
 ### Ladders
 
 
-[Agent climbs up a ladder. 1698x790](./images/agent-climbs-up-a-ladder.mp4)
+![Agent climbs up a ladder. 1698x790](./images/agent-climbs-up-a-ladder.mp4)
 
 Ladders follow a similar pattern. But the animated movement is different, it's divided into 3 parts:
 
@@ -235,7 +235,7 @@ public sealed class LadderLink : NavMeshLink
 ### Physics Based Jump
 
 
-[Agents traversing links via a physics based jump. 1698x790](./images/agents-traversing-links-via-a-physics-based-jump.mp4)
+![Agents traversing links via a physics based jump. 1698x790](./images/agents-traversing-links-via-a-physics-based-jump.mp4)
 
 You can also let the physics system drive the jump for you.
 

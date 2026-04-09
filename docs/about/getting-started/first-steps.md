@@ -11,7 +11,7 @@ An engine can seem huge and complicated when you don't know it. The s&box engine
 
 Here's how we think you should get started exploring the engine.
 
-### Getting the s&box editor ![Launch the editor from your Steam library](./images/launch-the-editor-from-your-steam-library.png "right-50 =379x365")
+### Getting the s&box editor ![Launch the editor from your Steam library](./images/launch-the-editor-from-your-steam-library.png)
 
 The s&box editor and game are avaliable to everyone through the developer preview, you can obtain it [here](https://sbox.game/give-me-that).
 
@@ -31,7 +31,7 @@ You can either launch through Steam, use a shortcut to sbox-dev.exe or open your
 
 Start s&box (not the editor) and find the game called `testbed`, this game is used by us to exhibit and test certain engine features, to make sure they work and keep working.
 
- ![Testbed](./images/testbed.png " =1920x1080")When you enter the game you'll find a menu of scenes. Each scene tests a different engine feature. 
+![Testbed](./images/testbed.png)When you enter the game you'll find a menu of scenes. Each scene tests a different engine feature. 
 
 Click a scene to enter it, have a play around, press escape to return to the main menu. You can hold escape to completely leave any game.
 

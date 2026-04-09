@@ -10,7 +10,7 @@ updated: 2025-11-15
 ActionGraph is a visual scripting language. Each node describes an action or expression, and links between nodes carry values or signals.
 
 
- ![A simple graph with action nodes (blue), expression nodes (green), and links between them. White links with arrows at either end carry signals that control when nodes run.](./images/a-simple-graph-with-action-nodes-blue-expression-nodes-green.png " =1250x244")
+![A simple graph with action nodes (blue), expression nodes (green), and links between them. White links with arrows at either end carry signals that control when nodes run.](./images/a-simple-graph-with-action-nodes-blue-expression-nodes-green.png)
 
 ## Creating a new ActionGraph
 
@@ -27,9 +27,9 @@ Following either guide above will get you into the ActionGraph editor.
 Nodes appear as rectangles in the ActionGraph editor with a name (or symbol), and input or output sockets. You create a node by right-clicking in any empty space, or dragging a link from an output to get a list of possible nodes that are specific to the link value type.
 
 
- ![Node creation menu.](./images/node-creation-menu.png " =x570")
+![Node creation menu.](./images/node-creation-menu.png)
 
-###  ![A root node with one signal socket and one value socket.](./images/a-root-node-with-one-signal-socket-and-one-value-socket.png "right-50 =288x127")Root Node
+###  ![A root node with one signal socket and one value socket.](./images/a-root-node-with-one-signal-socket-and-one-value-socket.png)Root Node
 
 The root node is the entry point of your graph. It'll be the only node in a new graph, and can't be deleted. It has only output sockets: one signal socket at the top, and optionally some value sockets if your graph accepts parameters.
 
@@ -40,14 +40,14 @@ When the graph runs, a signal is fired from the output signal socket of your roo
 Expression nodes (green) perform a calculation based on their inputs, without changing any state elsewhere. They don't have any input or output signal sockets, and will evaluate when any of their output values are used by another node.
 
 
- ![Some example expression nodes.](./images/some-example-expression-nodes.png " =x230")
+![Some example expression nodes.](./images/some-example-expression-nodes.png)
 
 ### Action Nodes
 
 Action nodes (blue) are any nodes with the white, arrow-shaped signal sockets. These nodes trigger things to happen when receiving a signal.
 
 
- ![An example graph using only action nodes that counts to 10.](./images/an-example-graph-using-only-action-nodes-that-counts-to-10.png " =x331")
+![An example graph using only action nodes that counts to 10.](./images/an-example-graph-using-only-action-nodes-that-counts-to-10.png)
 
 Most action nodes will have one input and one output signal socket in their title bar. The input will trigger the node to run, and the output will fire when the node has finished performing its action.
 
@@ -66,7 +66,7 @@ Your graph can't be linked in a way that leads to a cycle: it shouldn't be possi
 If you want to use a hard-coded value in an input, you can directly set it in the *Properties* panel when the node is selected.
 
 
- ![Setting constant values for the inputs in a For Range node.](./images/setting-constant-values-for-the-inputs-in-a-for-range-node.png " =x196")
+![Setting constant values for the inputs in a For Range node.](./images/setting-constant-values-for-the-inputs-in-a-for-range-node.png)
 
 ## Next Steps
 

@@ -10,7 +10,7 @@ updated: 2024-10-03
 To make a multiplayer game you need to take care of a few things. There's a special component that helps with those things, called NetworkHelper. This is a simple component that fits a lot of situations, but can be used as an example to code your own network component.
 
 
- ![](./images/network-helper.png " =538x117")
+![](./images/network-helper.png)
 
 
 # Creating a server

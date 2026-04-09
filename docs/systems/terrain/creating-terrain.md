@@ -9,7 +9,7 @@ updated: 2024-07-19
 
 To add Terrain to your Scene, right click in the Hierarchy and select 3D Object → Terrain from the menu.\nThe Terrain inspector will then prompt you to create, import or link an existing Terrain asset.\n
 
- ![](./images/creating-terrain.png)
+![](./images/creating-terrain.png)
 
 ## Create New Terrain
 
@@ -23,7 +23,7 @@ In the inspector window with the Terrain GameObject selected you will be asked h
 | **Max Height** | The maximum height your terrain will be in inches.The higher this is the less precision you get at lower values.                                                         |
 
 
- ![Create New Terrain - Terrain Inspector](./images/create-new-terrain-terrain-inspector.png)
+![Create New Terrain - Terrain Inspector](./images/create-new-terrain-terrain-inspector.png)
 
 ## Link Existing Terrain
 

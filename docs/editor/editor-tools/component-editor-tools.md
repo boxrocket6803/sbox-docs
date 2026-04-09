@@ -9,7 +9,7 @@ updated: 2023-12-29
 
 Component Editor Tools work a lot like regular Editor Tools, but they're always active when a specific [Component](/scene/components/index.md) is selected. These tools generally create UI in the scene view, but they can also override input too.
 
- ![The camera preview is created using a Component EditorTool](./images/the-camera-preview-is-created-using-a-component-editortool.png " =627x380")
+![The camera preview is created using a Component EditorTool](./images/the-camera-preview-is-created-using-a-component-editortool.png)
 
 An example of a component tool is the camera preview - which is shown when a [GameObject](/scene/gameobject.md) with a CameraComponent is shown.
 

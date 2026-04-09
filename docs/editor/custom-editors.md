@@ -9,7 +9,7 @@ updated: 2025-04-30
 
 When creating your own Classes/Structs/Assets/ect, you'll sometimes want custom editors that pair with them. For example, a Gradient Editor so you can visually see what the Gradient looks like instead of editing the Gradient as if it were a Struct with a list of Colours.
 
- ![With a Custom Editor](./images/with-a-custom-editor.png "right-50 =342x87") ![Without a Custom Editor](./images/without-a-custom-editor.png "left-50 =342x89")
+![With a Custom Editor](./images/with-a-custom-editor.png) ![Without a Custom Editor](./images/without-a-custom-editor.png)
 
 
 
@@ -51,7 +51,7 @@ public class MyCustomControlWidget : ControlObjectWidget
 }
 ```
 
- ![Now we have a Custom ControlWidget that looks and functions exactly as we want it to](./images/now-we-have-a-custom-controlwidget-that-looks-and-functions.png " =599x133")
+![Now we have a Custom ControlWidget that looks and functions exactly as we want it to](./images/now-we-have-a-custom-controlwidget-that-looks-and-functions.png)
 
 You can also check for certain attributes, so you can have a custom Password string editor that only appears when you've added the \[Password\] attribute
 

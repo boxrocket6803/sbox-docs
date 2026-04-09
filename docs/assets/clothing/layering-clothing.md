@@ -22,7 +22,7 @@ If you're making a clothing piece, you'll need to consider what fits under or ov
 
 ## Simple Breakdown
 
- ![](./images/simple-breakdown.png "right-50 =385x341")
+![](./images/simple-breakdown.png)
 
 * A 2 layer system for the torso, shirts **(layer 1)** and jackets / vests / etc **(layer 2)**. 
 
@@ -54,39 +54,39 @@ If you're making a clothing piece, you'll need to consider what fits under or ov
 A great way of making sure your clothing is fitting with the existing clothing, In your S&box project, place your clothing in a scene and add other existing clothing to check for clipping issues.
 
 
-Right click in your '**Hierarchy**', add an empty asset. Clicking on this new asset, we can 'Add Component' in the Inspector. Type and click in Model Renderer. ![](./images/checking-your-asset-1.png " =556x300")
+Right click in your '**Hierarchy**', add an empty asset. Clicking on this new asset, we can 'Add Component' in the Inspector. Type and click in Model Renderer. ![](./images/checking-your-asset-1.png)
 
 
 Click on the 'Model' input, opening a new window. Click onto the Citizen folder, which you can find at the bottom.
 
- ![](./images/checking-your-asset-3.png " =685x254")
+![](./images/checking-your-asset-3.png)
 
 
 Head to `citizen\assets\models\citizen` and click on Citizen.vmdl. Now we have the citizen in our scene to start dressing and testing our clothing.
 
- ![](./images/checking-your-asset-2.png " =685x275")
+![](./images/checking-your-asset-2.png)
 
- ![](./images/checking-your-asset.png " =685x282")
+![](./images/checking-your-asset.png)
 
 
 Now we can start adding clothing to test. Head over to `citizen\assets\models\citizen_clothes`, and we can start adding in clothing. 
 
- ![](./images/now-we-can-start-adding-clothing-to-test-head-over-to-citi.png " =728x336") 
+![](./images/now-we-can-start-adding-clothing-to-test-head-over-to-citi.png) 
 
 
 In this example I will be testing the Polo Shirt, for any clipping issues. Which should sit under all jackets / vests / armour, etc.
 
- ![](./images/in-this-example-i-will-be-testing-the-polo-shirt-for-any-cl.png " =728x349")
+![](./images/in-this-example-i-will-be-testing-the-polo-shirt-for-any-cl.png)
 
 
 Add another component and add a layer 2 clothing asset. In this example I'm adding the Bomber jacket.
 
- ![](./images/add-another-component-and-add-a-layer-2-clothing-asset-in-t.png " =728x452")
+![](./images/add-another-component-and-add-a-layer-2-clothing-asset-in-t.png)
 
 
 I can switch out the model input from the Bomber Jacket and try on other jackets.
 
- ![](./images/i-can-switch-out-the-model-input-from-the-bomber-jacket-and.png " =728x404")
+![](./images/i-can-switch-out-the-model-input-from-the-bomber-jacket-and.png)
 
 
 
@@ -102,13 +102,13 @@ Try out a few jackets till you find any clipping with your shirt, or until you f
 ## Cutting the Citizen 👕🔪
 
 
- ![](./images/cutting-the-citizen-1.png " =896x310")
+![](./images/cutting-the-citizen-1.png)
 
 
 Complimenting this Layering System, Layer 1 Clothing, modeldocs for assets like the `binman_shirt`, we can use cut parts of the citizen torso which can be extracted from the `citizen_REF.fbx` and adjusted in the 3d modeling software of your choice. Extracting only the visible parts of the torso geometry.
 
 
- ![](./images/cutting-the-citizen.png " =896x267")
+![](./images/cutting-the-citizen.png)
 
 
 This becomes very handy for assets that change the silhouette of the citizen. Removing the torso/chest bodygroup. While replacing the skin with a cut-out version of the torso model.
@@ -120,7 +120,7 @@ This becomes very handy for assets that change the silhouette of the citizen. Re
 ## Gloves Layering 🥊
 
 
- ![](./images/gloves-layering.png " =896x312")
+![](./images/gloves-layering.png)
 
 
 Gloves should sit **over** or **under** the Layer 1 clothing. They should never be any larger or clip with the Layer 2 Jackets, for the sake of preventing clipping. 
@@ -132,13 +132,13 @@ Gloves should sit **over** or **under** the Layer 1 clothing. They should never 
 ## Shoes Layering 👟
 
 
- ![](./images/shoes-layering-1.png " =851x296")
+![](./images/shoes-layering-1.png)
 
 
 By default, most shoes should fit under all trousers. Which in most cases should be fine, keeping in mind to keep the trousers relatively wide, leaving for enough space for the shoes. 
 
 
- ![](./images/shoes-layering.png "left-50 =299x243")
+![](./images/shoes-layering.png)
 
 Though in some cases such as the `football_shoes` which have shinpads, reaching further up the leg, clipping is inevitable.
 
@@ -158,7 +158,7 @@ Clipping is inevitable, just keep a close eye on your silhouette of your assets 
 
 ## Full-Body Outfits
 
- ![](./images/full-body-outfits.png "left-50 =385x307")
+![](./images/full-body-outfits.png)
 
 
 :::info

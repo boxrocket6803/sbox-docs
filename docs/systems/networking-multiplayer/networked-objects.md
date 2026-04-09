@@ -27,7 +27,7 @@ All game objects can be one of three network modes. This mode determines whether
 
 The network mode can also be changed for an object in the Scene from the Inspector view.
 
- ![](./images/network-mode.png " =1008x191")
+![](./images/network-mode.png)
 
 # Interpolation
 
@@ -37,7 +37,7 @@ By default the transform of all networked objects is interpolated smoothly for o
 
 You can disable interpolation in one of two ways. Either by code, or using the inspector. 
 
- ![](./images/disabling-interpolation.png " =381x134")
+![](./images/disabling-interpolation.png)
 
 ```csharp
 // Disable interpolation for this networked object.

@@ -32,14 +32,14 @@ The s&box tonemapping component supports the following properties:
 
 The s&box tonemapping component has the following modes available:
 
-### Hable Filmic ![Hable Filmic on Construct with default exposure settings](./images/hable-filmic-on-construct-with-default-exposure-settings.png "right-50 =471x265")
+### Hable Filmic ![Hable Filmic on Construct with default exposure settings](./images/hable-filmic-on-construct-with-default-exposure-settings.png)
 
 Source 2's default tonemapper. Preserves detail in dark areas well, but loses punchiness in brighter areas.
 
 
 
 
-### ACES ![ACES on Construct with default exposure settings](./images/aces-on-construct-with-default-exposure-settings.png "right-50 =471x265")
+### ACES ![ACES on Construct with default exposure settings](./images/aces-on-construct-with-default-exposure-settings.png)
 
 Filmic, very punchy, and has very high levels of contrast.
 
@@ -47,7 +47,7 @@ Filmic, very punchy, and has very high levels of contrast.
 
 
 
-### Reinhard-Jodie ![Reinhard-Jodie on Construct with default exposure settings](./images/reinhard-jodie-on-construct-with-default-exposure-settings.png "right-50 =471x265")
+### Reinhard-Jodie ![Reinhard-Jodie on Construct with default exposure settings](./images/reinhard-jodie-on-construct-with-default-exposure-settings.png)
 
 Low contrast, but good for most environments.
 
@@ -55,7 +55,7 @@ Low contrast, but good for most environments.
 
 
 
-### Linear ![Linear on Construct with default exposure settings](./images/linear-on-construct-with-default-exposure-settings.png "right-50 =471x265")
+### Linear ![Linear on Construct with default exposure settings](./images/linear-on-construct-with-default-exposure-settings.png)
 
 Unbiased and only applies exposure.
 
@@ -63,6 +63,6 @@ Unbiased and only applies exposure.
 
 
 
-### AgX ![AgX on Construct with default exposure settings](./images/agx-on-construct-with-default-exposure-settings.png "right-50 =471x265")
+### AgX ![AgX on Construct with default exposure settings](./images/agx-on-construct-with-default-exposure-settings.png)
 
 The same tonemapper used by Blender. Similar saturation and detail to ACES, but lifts darker areas slightly more. Great for outdoor areas.

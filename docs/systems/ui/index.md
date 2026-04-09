@@ -73,4 +73,4 @@ public sealed class MyRootPanel : PanelComponent
 
 By default, ScreenPanels will rescale all UI based on a 1080p target height automatically. If you wish to disable this, or change the scaling to target the Desktop Resolution, you can change the following:
 
- ![](./images/scaling.png)
+![](./images/scaling.png)

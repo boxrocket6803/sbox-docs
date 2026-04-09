@@ -9,7 +9,7 @@ updated: 2026-01-28
 
 Indirect Light Volumes are in Feedback Preview
 
- ![](./images/indirect-light-volumes.png " =1549x1368")
+![](./images/indirect-light-volumes.png)
 
 # About
 

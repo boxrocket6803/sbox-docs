@@ -29,14 +29,14 @@ In `ResourceExtension<Clothing, ClothingExtension>`, `Clothing` is the resource 
 
 You can now create your asset extension the same way you would create a new Asset
 
- ![](./images/extending-assets-with-your-resourceextension-2.png "left-50 =385x146") ![](./images/extending-assets-with-your-resourceextension.png "right-50 =342x160")
+![](./images/extending-assets-with-your-resourceextension-2.png) ![](./images/extending-assets-with-your-resourceextension.png)
 
 
 
 
 Once you've set up your extension with the desired values, you can go to the "Extends" tab to specify which Assets this resource should be extending. All specified assets will be able to access this extension.
 
- ![](./images/extending-assets-with-your-resourceextension-1.png)If "Default" is enabled, then this ResourceExtension will be returned as the default for any Asset without a corresponding extension. 
+![](./images/extending-assets-with-your-resourceextension-1.png)If "Default" is enabled, then this ResourceExtension will be returned as the default for any Asset without a corresponding extension. 
 
 # Accessing a ResourceExtension
 

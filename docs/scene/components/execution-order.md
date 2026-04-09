@@ -16,4 +16,4 @@ You should not rely on the order in which the same callback methods get invoked 
 
 The flow chart shows the order of execution for a Scene, component methods are executed at the same time for all components. There are some internal methods added to make context clearer.
 
- ![](./images/flowchart.png " =1361.5x1920")
+![](./images/flowchart.png)

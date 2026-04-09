@@ -22,7 +22,7 @@ To create a PrefabFile, right-click on a GameObject in the scene and select `Con
 In the scene view, GameObjects that are instantiations of Prefabs are made obvious by their colour. 
 
 
- ![They're blue](./images/they-re-blue.png " =358x178")
+![They're blue](./images/they-re-blue.png)
 
 When in their Prefab Instantiation state, they can't be edited significantly. You can't view or select objects in their hierarchy.
 

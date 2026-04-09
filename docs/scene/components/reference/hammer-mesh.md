@@ -11,7 +11,7 @@ The HammerMesh component is added automatically to game objects in Hammer that a
 
 You can't add these manually, you need to tie a Mesh to a GameObject by clicking the button in Hammer:
 
- ![](./images/hammer-mesh.png)
+![](./images/hammer-mesh.png)
 
 When maps are compiled the geometry is turned into a model and set on this component to be loaded at runtime. By default this component procedurally creates a ModelRenderer and a ModelCollider component using the generated model.
 

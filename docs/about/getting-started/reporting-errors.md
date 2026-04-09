@@ -19,7 +19,7 @@ It's often really helpful to us to have your log to work out what's going on. If
 
 They're written to the `logs` folder inside your s&box installation directory, the quickest way to get to this is by right-clicking s&box in Steam.
 
- ![](./images/error-logs.png " =299x367")
+![](./images/error-logs.png)
 
 The last 10 are kept, the latest one is always called `Log.log`. Find the right one for the session and attach this to your issue on GitHub.
 
@@ -51,13 +51,13 @@ You NEED the following, if you don't have the following this is likely why:
 
 ### Steam Not Found
 
- ![](./images/steam-not-found.png)
+![](./images/steam-not-found.png)
 
 This tends to happen when you've got a Steam emulator on your system from pirating games, naughty.
 
 ### Failed to initialize Vulkan
 
- ![](./images/failed-to-initialize-vulkan.png " =491x145")
+![](./images/failed-to-initialize-vulkan.png)
 
 Graphics cards have supported Vulkan since 2012. If you don't have one, get one.
 

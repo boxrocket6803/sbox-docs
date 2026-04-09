@@ -13,7 +13,7 @@ There is a large selection of Assets (Textures, Models, Sounds, ect) available t
 
 The Cloud Browser allows you to instantly drag any Asset directly into your scene to be used in your game right away. It will download all necessary assets behind-the-scenes and cache them so you don't need to worry about downloading them each time. This is the quickest and easiest way to reference Cloud Assets
 
-[Using the Cloud Browser to add different Models/Materials to a Scene 1882x896](./images/using-the-cloud-browser-to-add-different-models-materials-to.mp4)
+![Using the Cloud Browser to add different Models/Materials to a Scene 1882x896](./images/using-the-cloud-browser-to-add-different-models-materials-to.mp4)
 
 # Referencing in Code via Properties
 

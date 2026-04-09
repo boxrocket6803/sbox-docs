@@ -7,11 +7,11 @@ updated: 2025-07-04
 
 # Editor Map
 
-![](./images/editor-map.png " =1167x460")
+![](./images/editor-map.png)
 
 # Toolbar
 
- ![](./images/toolbar.png " =1082x280")
+![](./images/toolbar.png)
 
 ## Project
 
@@ -79,7 +79,7 @@ Resolution to use when frame snapping.
 
 # Track List
 
- ![](./images/track-list.png " =756x455")
+![](./images/track-list.png)
 
 ## Project Navigation
 
@@ -136,7 +136,7 @@ Disables modifications of this track in the movie.
 
 # Timeline
 
- ![](./images/timeline.png " =1504x511")
+![](./images/timeline.png)
 
 * **Shift** - smoothly preview the time under the mouse
 * **Scroll** - vertically scroll through track list

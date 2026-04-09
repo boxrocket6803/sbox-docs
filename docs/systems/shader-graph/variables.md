@@ -13,14 +13,14 @@ Variables are useful for making your Graph easier to follow and understand, whil
 
 Any Constant nodes created within a Shader will be compiled as constant values in shader code. These values cannot be changed
 
- ![](./images/constants.png " =348x129")
+![](./images/constants.png)
 
 # Variables
 
 Any Constant nodes that are given a name are automatically exposed in the Material Editor. these values can be customized when creating a Material from the Shader.
 
- ![Giving a Float constant the name "Intensity"](./images/giving-a-float-constant-the-name-intensity.png " =1381x770")
+![Giving a Float constant the name "Intensity"](./images/giving-a-float-constant-the-name-intensity.png)
 
- ![How the Variable appears in the Material Editor](./images/how-the-variable-appears-in-the-material-editor.png " =468x70")
+![How the Variable appears in the Material Editor](./images/how-the-variable-appears-in-the-material-editor.png)
 
 If a Constant has "Is Attribute" set to true, then the value will not be exposed in the Material Editor and will instead be accessible via `RenderAttributes` in code.

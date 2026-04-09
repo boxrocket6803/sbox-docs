@@ -13,7 +13,7 @@ Shader Graph is a visual scripting language that compiles to shader code. This i
 
 You can open the Editor by creating a new Shader Graph asset and double clicking on it. Upon opening it, you will be met with 4 main sections:
 
- ![](./images/shader-graph-editor.png " =1387x811")
+![](./images/shader-graph-editor.png)
 
 
 1. Preview - Where you can see your Shaders output update in real time. You can change the preview model/lighting to whatever you'd like.
@@ -27,7 +27,7 @@ Each tab can be dragged around and re-positioned however you'd like, so feel fre
 
 You can create any nodes that are available to you by simply right clicking anywhere in the Graph or by clicking and dragging nodes into the Graph from the Palette.
 
- ![](./images/creating-a-node.png "left-50 =171x380") ![](./images/creating-a-node-1.png "left-50 =86x385")
+![](./images/creating-a-node.png) ![](./images/creating-a-node-1.png)
 
 
 
@@ -39,7 +39,7 @@ You can create any nodes that are available to you by simply right clicking anyw
 
 Each node has a certain amount of inputs and outputs, each with their own types which are color-coordinated to determine if the value is a vector and how many components it has.
 
- ![](./images/input-output-types-1.png " =240x144")
+![](./images/input-output-types-1.png)
 
 * Float (Green) - A single floating-point value
 * Float2 (Purple) - A two-component vector (UV Coordinates, Screen Position)
@@ -48,7 +48,7 @@ Each node has a certain amount of inputs and outputs, each with their own types 
 
 Some nodes may output a different type given the input types, depending on how the node chooses to handle such a thing. 
 
- ![](./images/input-output-types-2.png "left-50 =257x159") ![](./images/input-output-types.png "left-50 =342x172")
+![](./images/input-output-types-2.png) ![](./images/input-output-types.png)
 
 
 
@@ -59,4 +59,4 @@ Notice how the Multiply node returns a green Float value by default (given it's 
 
 Once you have saved your Shader Graph, you'll see there is a compiled Shader file next to it, which can now be used as any other Shader when making a Material. You can also right click on it directly and select "Create Material" to instantly create a Material from it.
 
- ![](./images/creating-a-material.png " =364x418")
+![](./images/creating-a-material.png)

@@ -32,9 +32,9 @@ Many of these guidelines cover case-by-case situations. If you need a direct ref
 Checking over examples of existing clothing, you may be able to get a rough estimate of a clothing asset's triangle count. 'Common sense' should help guide you, but here are some examples of triangle counts across our own assets.
 
 
- ![](./images/triangle-count.png " =3262x925")
+![](./images/triangle-count.png)
 
- ![](./images/triangle-count-1.png " =3262x925")
+![](./images/triangle-count-1.png)
 
 
 :::info
@@ -54,7 +54,7 @@ Further information on this specific topic can be found in the [Clothing Topolog
 ![Good vs bad topology](./images/topology_explain.mp4)
 
 
- ![](./images/topology-1.png " =1806x1110")
+![](./images/topology-1.png)
 
 Example above shows the difference between **==bad==** and **==good==** topology on a clothing piece. 
 
@@ -66,11 +66,11 @@ If you're finding it difficult how your topology / density of your topology shou
 :::
 
 
- ![](./images/topology.gif " =599x461")
+![](./images/topology.gif)
 
 Another example :
 
- ![](./images/another-example.png " =2352x1135")
+![](./images/another-example.png)
 
 Well-made topology is very important to make sure the mesh will deform, bend, and stretch properly once your asset is skinned (rigged). Generally, we have denser amount of quads in areas like the knees, elbows, and any place where the body will crease and bend.
 
@@ -82,7 +82,7 @@ For more information, please read through the [Clothing Topology](/dev/doc/in-pr
 
 ## Layering 🧅
 
- ![](./images/layering.gif "right-50 =169x413")
+![](./images/layering.gif)
 
 We make clothing that can fit together (under or over), to create multiple outfit combinations. Shirts fit under jackets, jackets over shirts, trousers under shirts, shoes under trousers, etc.
 
@@ -148,7 +148,7 @@ If you need extra texture density, and one material doesn't feel like it's enoug
 In cases like the winter coat that features fur, you can have that as a separate extra material. 
 
 
- ![](./images/number-of-materials.png " =945x802")
+![](./images/number-of-materials.png)
 
 
 :::info
@@ -160,7 +160,7 @@ For complex single pieces, 2 materials is more than enough in nearly every case.
 Like with triangle counts, higher numbers aren't always better! The more you can pack into one material, the better. For example below, this medieval armour is using only a single 2048px set.
 
 
- ![](./images/like-with-triangle-counts-higher-numbers-aren-t-always-bett.png " =1522x1119")
+![](./images/like-with-triangle-counts-higher-numbers-aren-t-always-bett.png)
 
 
 ---
@@ -168,15 +168,15 @@ Like with triangle counts, higher numbers aren't always better! The more you can
 ## Shaders & Material Editor 🕶️
 
 
-For clothing, you'll only need to use the **Complex** shader. As this is our standard shader which we use for most assets.\n ![](./images/shaders-material-editor-1.png " =257x69")
+For clothing, you'll only need to use the **Complex** shader. As this is our standard shader which we use for most assets.\n ![](./images/shaders-material-editor-1.png)
 
 We use the Complex shader to plug in our textures.
 
 
- ![](./images/shaders-material-editor.png " =2261x1100")
+![](./images/shaders-material-editor.png)
 
 
- ![](./images/shaders-material-editor-2.png "left-50 =250x249")
+![](./images/shaders-material-editor-2.png)
 
 *In the PBR settings on the left of the Material Editor…*
 
@@ -188,7 +188,7 @@ We use the Complex shader to plug in our textures.
 
 
 
- ![](./images/metalness-texture-must-be-ticked-on-to-be-able-to-add.png "left-50 =257x114")*In the Translucent settings…*
+![](./images/metalness-texture-must-be-ticked-on-to-be-able-to-add.png)*In the Translucent settings…*
 
 
 * Tick on **Alpha Test** to be able to add your transparency texture.
@@ -197,10 +197,10 @@ We use the Complex shader to plug in our textures.
 Ticking this on will add these sliders to your Variables tab, which you can adjust to get your desired results.
 
 
- ![](./images/ticking-this-on-will-add-these-sliders-to-your-variables-tab.png " =1159x354")
+![](./images/ticking-this-on-will-add-these-sliders-to-your-variables-tab.png)
 
 
- ![](./images/we-use-bent-normal-textures-which-you-can-usually-bake-in.png "left-50 =257x107")*In the Normal settings…*
+![](./images/we-use-bent-normal-textures-which-you-can-usually-bake-in.png)*In the Normal settings…*
 
 
 * We use Bent Normal textures which you can usually bake in your texturing / baking software of choice. 
@@ -209,7 +209,7 @@ Ticking this on will add these sliders to your Variables tab, which you can adju
 Ticking this on will reveal the Bent Normal input, which will appear above the Normal input.
 
 
- ![](./images/ticking-this-on-will-reveal-the-bent-normal-input-which-wil.png " =1145x296")
+![](./images/ticking-this-on-will-reveal-the-bent-normal-input-which-wil.png)
 
 *Ambient Occlusion settings…*
 
@@ -217,7 +217,7 @@ Ticking this on will reveal the Bent Normal input, which will appear above the N
 By default, after adding your Ambient Occlusion map, both sliders just below will be set to 0, you will need to turn these up to get a suitable amount of ao.  
 
 
- ![](./images/by-default-after-adding-your-ambient-occlusion-map-both-sl.png " =1148x237")
+![](./images/by-default-after-adding-your-ambient-occlusion-map-both-sl.png)
 
 
 :::warning
@@ -242,7 +242,7 @@ Following our standard, we expect your material to include a **Color, Normal, Be
 At the final stage of making a clothing asset, you will need to 'skin' your model. We expect the results to be exceptional, without any obvious **clipping, wrong skin-joint naming / missing joints or any major errors.** 
 
 
- ![](./images/clothing-skinning.png " =3149x1265")
+![](./images/clothing-skinning.png)
 
 We recognise skinning adds more time to the production of making a clothing asset, so we have supplied handy tips and walkthroughs on the 🩻 [Skinning](/dev/doc/in-progress/creating-clothing/skinning/) page. Please follow this page for exact details.
 
@@ -332,7 +332,7 @@ When you see the wireframe turning 'solid', this is a sign triangle density shou
 
 You're close to finishing and submitting your asset,  **but first consider** -
 
- ![](./images/final-model-checks.png "right-50 =171x171")
+![](./images/final-model-checks.png)
 
 ***Does your clothing asset have…***
 
@@ -357,7 +357,7 @@ If you're finding it difficult to estimate the size of your triangle counts, how
 
 ## **Human Variations** 🧍
 
- ![](./images/human-variations-2.gif "right-50 =385x176")
+![](./images/human-variations-2.gif)
 
 On top of making your clothing asset, you will need to make a **human variation**, potentially a female human human variation as well.
 
@@ -366,17 +366,17 @@ We understand this sounds like double the amount of time and energy.
 **While this is extra work, this is much easier than you'd expect.**
 
 
- ![](./images/human-variations-1.png " =2298x1293")
+![](./images/human-variations-1.png)
 
 
- ![](./images/human-variations.png "right-50 =428x312")When you make your `.clothing` file that will feature your asset's `.vmdl` file. You'll need to plug in a separate VMDL in the *'Human Alt Model'* input.
+![](./images/human-variations.png)When you make your `.clothing` file that will feature your asset's `.vmdl` file. You'll need to plug in a separate VMDL in the *'Human Alt Model'* input.
 
 
 You also will need to add a **Human Alt Female Model**, but that is specific to shirts that show off skin. Coats, gloves, hats, shoes, will not need a female version.
 
 
 
- ![](./images/you-also-will-need-to-add-a-human-alt-female-model-but.png "left-50 =471x390")
+![](./images/you-also-will-need-to-add-a-human-alt-female-model-but.png)
 
 This allows players to choose between the citizen or the human version of your clothing, giving them option, gives them **double the usage.** 
 

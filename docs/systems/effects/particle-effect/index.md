@@ -14,7 +14,7 @@ The scene system includes a programmable particle system, which can be controlle
 Our particle system is designed to be controllable. It simulates purely on the CPU, but is heavily multithreaded. Our decision was to enable ease of use and make it fully programmable, rather than simulate on the GPU in a way that would make that difficult.
 
 
- ![](./images/about-particle-effect.png)
+![](./images/about-particle-effect.png)
 
 With this system you can emit particles manually, in code, one by one. You can iterate the particles and change their values at any time. You can write a controller that will fully control the particle on simulate. You can react to particles colliding with the world.
 
@@ -23,7 +23,7 @@ With this system you can emit particles manually, in code, one by one. You can i
 
 To maximize flexibility and encourage an open, extendable system, a particle systems is created from multiple components.
 
- ![](./images/parts-of-a-particle-effect.png)
+![](./images/parts-of-a-particle-effect.png)
 
 ## ParticleEffect
 
@@ -41,6 +41,6 @@ The thing that renders the particles is a separate component. The most common co
 
 Without an emitter the particles won't exist. The emitter defines the amount of particles to spawn, in a burst or over time.
 
- ![Emitters can also define the shape and start velocity](./images/emitters-can-also-define-the-shape-and-start-velocity.png)
+![Emitters can also define the shape and start velocity](./images/emitters-can-also-define-the-shape-and-start-velocity.png)
 
 You can operate without one of the built in emitters, if you intend to call `ParticleEffect.Emit` manually, to create particles in a more bespoke way.

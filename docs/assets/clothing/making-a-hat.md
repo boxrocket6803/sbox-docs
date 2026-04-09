@@ -20,7 +20,7 @@ updated: 2025-01-24
 In this example, we are showing our process of creating and setting up Headphones.
 
 :::
- ![](./images/making-hats-headwear.png " =1792x697")
+![](./images/making-hats-headwear.png)
 
 
 ---
@@ -44,7 +44,7 @@ Generally, we expect you to make a highpoly to bake down onto your lowpoly. What
 
 ## Lowpoly, UV's & Baking
 
-[Lowpoly](./images/phones_02.mp4)
+![Lowpoly](./images/phones_02.mp4)
 
 I aimed for anything under **4k tris** for my lowpoly**,** considering it's size and complexity. Anything a bit higher would be fine, but always worth considering your tricount. If you're finding it hard to work out how high or low your tricount should be, read our [Guidelines & Quality Bar](https://sbox.game/dev/doc/clothing/guidelines-quality-bar/) page segment on Tricounts.
 
@@ -57,7 +57,7 @@ We expect you to have knowledge on creating UVs. We are just showing examples of
 
 :::
 
- ![](./images/uvs.png " =1905x1054")
+![](./images/uvs.png)
 
 
 
@@ -66,7 +66,7 @@ We expect you to have knowledge on creating UVs. We are just showing examples of
 
 ## Texturing 
 
-[Texturing](./images/headphones_03.mp4)
+![Texturing](./images/headphones_03.mp4)
 
 We'd recommend adding details that make the clothing look **used** rather than **factory new**. This lines up well with the current clothing we have created and the overall **worn and torn** aesthetic we lean towards.
 
@@ -78,7 +78,7 @@ We're not expecting you to dip your model in mud and stains, if you're making a 
 :::
 
 
- ![](./images/texturing.png " =856x369")
+![](./images/texturing.png)
 
 
 We'd steer away from completely flat and undetailed textures, there'd be rare exceptions to this rule, all depending on the context / art-style of your asset.
@@ -89,7 +89,7 @@ We'd steer away from completely flat and undetailed textures, there'd be rare ex
 
 ## LODs 
 
-[LODs](./images/headphones_04.mp4)
+![LODs](./images/headphones_04.mp4)
 
 You can follow our segment on LODs at our [Guidelines & Quality Bar](https://sbox.game/dev/doc/clothing/guidelines-quality-bar/) page. Which breaks down what tricounts you should aim for on each LOD.
 
@@ -110,7 +110,7 @@ The tricount for each LOD of the Headphones -
 
 ## Human Version
 
-[Human Version](./images/headphones_05.mp4)
+![Human Version](./images/headphones_05.mp4)
 
 Making a Human version of a hat is relatively easy, compared to other assets. Most hats you'll only need to **scale** and **move it's position** to fit onto the human head.
 

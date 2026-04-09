@@ -23,29 +23,29 @@ Before anything, we want to make sure we have our correct files. We want our vmd
 :::
 
 
- ![](./images/breakdown-2.gif " =514x343")
+![](./images/breakdown-2.gif)
 
 Right click in your folder - `New / Citizen / Clothing Definition` 
 
 
- ![](./images/breakdown-5.gif " =514x626")
+![](./images/breakdown-5.gif)
 
 Add your Vmdls, original Citizen model goes in 'Model'. Standard male human version goes in `Human Alt Model` and your Female human variation goes in the `Human Alt Female Model`. 
 
 ### 
 
 
- ![](./images/give-your-clothing-a-suitable-name-and-description-in-this.gif " =599x244")
+![](./images/give-your-clothing-a-suitable-name-and-description-in-this.gif)
 
 Give your Clothing a suitable name and description. In this example, we're making a Hat, so we set the category to `Hat` and we type *"**Hats"*** for the Sub Category. So it'll show up correctly in the character menu.
 
 
- ![](./images/give-your-clothing-a-suitable-name-and-description-in-this-1.gif " =599x307")
+![](./images/give-your-clothing-a-suitable-name-and-description-in-this-1.gif)
 
 In Icon, we can generate a thumbnail for our .clothing file. Since we're making a hat, we want the Mode set to `Head`, which will orient the camera on the head. `Save Icon to Disk` to generate and save your clothing Icon.
 
 
- ![](./images/in-icon-we-can-generate-a-thumbnail-for-our-clothing-file.gif " =599x476")
+![](./images/in-icon-we-can-generate-a-thumbnail-for-our-clothing-file.gif)
 
 We also want to set our Body Slots, for a Hat like a baseball cap that only covers to the top of the Head, we'd want to set it to *Slots Under* - `HeadTop`.
 
@@ -55,12 +55,12 @@ We also want to set our Body Slots, for a Hat like a baseball cap that only cove
 
 Here's some examples of clothing and their body slots.
 
- ![](./images/quick-guide-to-body-slots-1.png " =1131x2302")
+![](./images/quick-guide-to-body-slots-1.png)
 
 **Slots Under** is where shirts, trousers and shoes go, (Layer 1). Anything that fits over that would be **Slots Over**. This doesn't remove the Layer 1 clothing when selected, which would be for open jackets or vests; treat it as your Layer 2. 
 
 
- ![](./images/quick-guide-to-body-slots.png " =856x161")
+![](./images/quick-guide-to-body-slots.png)
 
 
 :::info
@@ -105,34 +105,34 @@ Now let's publish our .Clothing file to sbox.game, where our clothing can be see
 ### Breakdown 
 
 
- ![](./images/breakdown-1.gif " =642x210")
+![](./images/breakdown-1.gif)
 
 **Publish** your .Clothing file, and go to **Edit settings and Publish**
 
 
- ![](./images/breakdown-3.gif " =642x386")
+![](./images/breakdown-3.gif)
 
 A new window will pop up, where you can set the title of your asset. Now we'll want to Create a **New Organisation**, or an existing one you may want to use. 
 
 
- ![](./images/breakdown.gif " =642x478")
+![](./images/breakdown.gif)
 
 When clicking **New Organisation**, you will be taken to the **s&box.game** website. Here we can create a new organisation.
 
 
- ![](./images/breakdown-4.gif " =642x386")
+![](./images/breakdown-4.gif)
 
 When creating a new organisation, you may have to restart s&box and open the publishing window again for it to appear in the Organisation Ident drop down.
 
 Then you'll be able to add your organisation and press next to start **Uploading files and publish.** *Though the clothing won't be public just yet.*
 
 
- ![](./images/then-you-ll-be-able-to-add-your-organisation-and-press-next.gif " =685x412")
+![](./images/then-you-ll-be-able-to-add-your-organisation-and-press-next.gif)
 
 Here we can edit the asset on **s&box.game** website, for any final changes.
 
 
- ![](./images/here-we-can-edit-the-asset-on-s-box-game-website-for-an.png " =685x353")
+![](./images/here-we-can-edit-the-asset-on-s-box-game-website-for-an.png)
 
 Here we add our appropriate title and description as well as relevant tags, you will want to add more that are specific to the theme of your clothing, `medieval` `metal` `armour`.
 

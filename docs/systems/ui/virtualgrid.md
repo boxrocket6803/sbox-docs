@@ -10,7 +10,7 @@ updated: 2025-08-30
 `VirtualGrid` is a Panel that allows you to create a grid of items virtually. What this means is that if you have 1 million items, it won't render them and try to lay them all out at the same time. It'll just pick the few that are visible and create them. When you scroll down, it'll delete the ones it can no longer see and create the new visible ones.
 
 
- ![An example usage of VirtualGrid](./images/an-example-usage-of-virtualgrid.png " =813x662")
+![An example usage of VirtualGrid](./images/an-example-usage-of-virtualgrid.png)
 
 # Razor
 

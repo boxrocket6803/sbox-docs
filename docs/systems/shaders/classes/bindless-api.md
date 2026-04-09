@@ -13,7 +13,7 @@ The fancy new way to do things in Vulkan / DX12 is bindless. This removes the li
 
 This allows a lot more versatility in your shaders, less CPU time spent binding textures and is the fundamental key to GPU driven rendering.\n
 
- ![](./images/what-is-bindless.png " =471x265")
+![](./images/what-is-bindless.png)
 
 # Bindless API
 
@@ -98,4 +98,4 @@ If your bindless resources index is going to vary across threads within a wave (
 Texture2D texture = Bindless::GetTexture2D( NonUniformResourceIndex( i.TextureIndex ) );
 ```
 
- ![Undefined behavior from a non uniform resource index](./images/undefined-behavior-from-a-non-uniform-resource-index.webp)
+![Undefined behavior from a non uniform resource index](./images/undefined-behavior-from-a-non-uniform-resource-index.webp)

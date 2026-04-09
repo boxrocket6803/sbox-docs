@@ -27,7 +27,7 @@ Games are compiled with an extra `STANDALONE` constant when exporting.
 
 Exporting your game is done through the Export Wizard.
 
- ![](./images/how-to-export-your-game.png " =802x606")
+![](./images/how-to-export-your-game.png)
 
 To access the wizard:
 

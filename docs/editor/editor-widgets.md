@@ -59,7 +59,7 @@ Creating a Widget with the \[Dock\] attribute will allow it to be docked within 
 [Dock("Editor", "Example Editor Dock", "local_fire_department")]
 ```
 
- ![The Dockable Window can now be opened/closed from the View menu](./images/the-dockable-window-can-now-be-opened-closed-from-the-view-m.png "left-50 =342x232") ![How the Widget looks when un-docked](./images/how-the-widget-looks-when-un-docked.png "right-50 =300x210")
+![The Dockable Window can now be opened/closed from the View menu](./images/the-dockable-window-can-now-be-opened-closed-from-the-view-m.png) ![How the Widget looks when un-docked](./images/how-the-widget-looks-when-un-docked.png)
 
 
 

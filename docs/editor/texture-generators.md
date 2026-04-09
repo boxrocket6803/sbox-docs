@@ -44,11 +44,11 @@ public class CircleTextureGenerator : Sandbox.Resources.TextureGenerator
 
 The code above creates a circle texture generator. It draws a circle in the middle of a 128x128 texture.
 
- ![](./images/the-code-above-creates-a-circle-texture-generator-it-draws.png " =649x77")
+![](./images/the-code-above-creates-a-circle-texture-generator-it-draws.png)
 
 You can select the color of the circle and the background in the UI.
 
- ![](./images/you-can-select-the-color-of-the-circle-and-the-background-in.png " =899x751")
+![](./images/you-can-select-the-color-of-the-circle-and-the-background-in.png)
 
 ## Properties
 
