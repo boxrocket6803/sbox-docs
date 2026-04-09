@@ -1,0 +1,17 @@
+name: Sync Docs
+
+on:
+  push:
+    branches: [master]
+    paths: ['docs/**']
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger docs sync
+        run: |
+          curl -s -X POST \
+            -H "Authorization: Bearer ${{ secrets.DOCS_WEBHOOK_SECRET }}" \
+            -H "Content-Type: application/json" \
+            https://services.facepunch.com/sbox/webhook/incoming/docs
