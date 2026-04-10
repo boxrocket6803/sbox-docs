@@ -21,7 +21,7 @@ After that, try to **make a GameObject** that you can control by creating a cust
 
 ## Player Input
 
-Use the [Input section of this site](/systems/input/index.md) to figure out how to read keys, and change the `WorldPosition` depending on which keys are being pressed.
+Use the [Input section of this site](/gameplay/input/index.md) to figure out how to read keys, and change the `WorldPosition` depending on which keys are being pressed.
 
 After that, maybe control the position of the camera too, either by parenting it to your object, or by setting the position directly using `Scene.Camera.WorldPosition`.
 

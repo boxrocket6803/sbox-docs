@@ -54,4 +54,6 @@ Now that you understand the basics, explore these areas of the documentation:
 - **[Scenes & GameObjects](/scene/index.md)** — Deep dive into the scene system
 - **[Code](/code/index.md)** — C# programming in s&box
 - **[Editor](/editor/index.md)** — Learn the editor tools
-- **[Systems](/systems/index.md)** — Input, networking, audio, and more
+- **[Gameplay](/gameplay/index.md)** — Input, navigation, terrain, and VR
+- **[Networking](/networking/index.md)** — Multiplayer, RPCs, and dedicated servers
+- **[Graphics](/graphics/index.md)** — Shaders, effects, and post-processing

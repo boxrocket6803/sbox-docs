@@ -34,4 +34,4 @@ Here are some of the common ones to help new devs. Check out our full API refere
 | ❌ Not allowed | ✅ Allowed |
 |---------------|-----------|
 | `Console.Log` | Use `Log.Info` as a drop-in replacement. |
-| `System.IO*`  | Most standard .NET IO isn't allowed, but you can use our [Filesystem](https://sbox.game/dev/doc/systems/file-system/) API for storage of user data. |
+| `System.IO*`  | Most standard .NET IO isn't allowed, but you can use our [Filesystem](https://sbox.game/dev/doc/assets/file-system/) API for storage of user data. |

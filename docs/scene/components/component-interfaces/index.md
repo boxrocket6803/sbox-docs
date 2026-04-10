@@ -177,9 +177,9 @@ public sealed class ClickToDamage : Component
 
 # INetworkListener
 
-A component with this interface can react to [📆 Network Events](/dev/doc/systems/networking-multiplayer/network-events/#h-inetworklistener).
+A component with this interface can react to [📆 Network Events](/dev/doc/networking/network-events/#h-inetworklistener).
 
 
 # INetworkSpawn
 
-A component with this interface can react to [📆 Network Events](/dev/doc/systems/networking-multiplayer/network-events/#h-inetworkspawn)
+A component with this interface can react to [📆 Network Events](/dev/doc/networking/network-events/#h-inetworkspawn)

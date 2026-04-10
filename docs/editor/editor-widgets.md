@@ -7,7 +7,7 @@ updated: 2024-11-10
 
 # Editor Widgets
 
-Editor UI is built entirely out of Widgets. Widgets are different from [Panels](/systems/ui/index.md), which are used for in-game UI. Widgets can be various elements or components, such as labels, buttons, text boxes, trees, or images.
+Editor UI is built entirely out of Widgets. Widgets are different from [Panels](/ui/index.md), which are used for in-game UI. Widgets can be various elements or components, such as labels, buttons, text boxes, trees, or images.
 
 If a Widget does not have a parent, it is a Root Widget. This Widget will act as a window on the user's OS.
 
