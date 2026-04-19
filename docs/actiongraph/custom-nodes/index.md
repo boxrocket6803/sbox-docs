@@ -9,5 +9,5 @@ updated: 2024-01-23
 
 There are two ways to create your own node types:
 
-* [Action Resources](/editor/actiongraph/custom-nodes/action-resources.md)
-* [C# Method Nodes](/editor/actiongraph/custom-nodes/c-method-nodes.md)
+* [Action Resources](/actiongraph/custom-nodes/action-resources.md)
+* [C# Method Nodes](/actiongraph/custom-nodes/c-method-nodes.md)

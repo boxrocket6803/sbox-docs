@@ -9,7 +9,7 @@ updated: 2026-04-10
 
 The s&box editor is your workspace for building games — scene editing, asset management, visual scripting, and more.
 
-## [ActionGraph](/editor/actiongraph/index.md)
+## [ActionGraph](/actiongraph/index.md)
 
 Visual scripting system for creating logic without writing code.
 

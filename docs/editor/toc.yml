@@ -1,6 +1,4 @@
 items:
-- name: ActionGraph
-  href: actiongraph/
 - name: Asset Previews
   href: asset-previews.md
 - name: Custom Editors

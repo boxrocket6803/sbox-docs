@@ -166,4 +166,4 @@ ExampleAction?.Invoke( 123, "Hello, World!", GameObject.Parent )
 
 ## Next Steps
 
-Take a look at the [Intro to ActionGraphs](/editor/actiongraph/intro-to-actiongraphs.md) guide to learn how to edit your new graph.
+Take a look at the [Intro to ActionGraphs](/actiongraph/getting-started.md) guide to learn how to edit your new graph.

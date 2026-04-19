@@ -22,4 +22,4 @@ Each of these start out with an "Empty Action". Simply click on any of those to 
 
 ## Next Steps
 
-Take a look at the [Intro to ActionGraphs](/editor/actiongraph/intro-to-actiongraphs.md) guide to learn how to edit your new graph.
+Take a look at the [Intro to ActionGraphs](/actiongraph/getting-started.md) guide to learn how to edit your new graph.

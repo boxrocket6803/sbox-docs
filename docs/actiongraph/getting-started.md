@@ -1,11 +1,11 @@
 ---
-title: "Intro to ActionGraphs"
-icon: "🎓"
+title: "Getting Started"
+icon: "🌱"
 created: 2024-01-08
-updated: 2025-11-15
+updated: 2026-04-19
 ---
 
-# Intro to ActionGraphs
+# Getting Started
 
 ActionGraph is a visual scripting language. Each node describes an action or expression, and links between nodes carry values or signals.
 
@@ -16,9 +16,9 @@ ActionGraph is a visual scripting language. Each node describes an action or exp
 
 To start using ActionGraph in your project, you can either:
 
-* [Use the built-in Component actions](/editor/actiongraph/component-actions.md)
+* [Use the built-in Component actions](/actiongraph/component-actions.md)
 * Use the Component Editor to create methods in a custom component
-* [Add a Delegate-type property to a custom component in C#](/editor/actiongraph/using-with-c.md)
+* [Add a Delegate-type property to a custom component in C#](/actiongraph/using-with-c.md)
 
 Following either guide above will get you into the ActionGraph editor.
 
@@ -72,5 +72,5 @@ If you want to use a hard-coded value in an input, you can directly set it in th
 
 Now you know the basics, the next things to learn are:
 
-* [How to use variables](/editor/actiongraph/variables.md)
-* [Creating your own custom nodes](/editor/actiongraph/custom-nodes/index.md)
+* [How to use variables](/actiongraph/variables.md)
+* [Creating your own custom nodes](/actiongraph/custom-nodes/index.md)
