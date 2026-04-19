@@ -9,6 +9,8 @@ items:
   href: editor/
 - name: Assets
   href: assets/
+- name: Game Mounts
+  href: game-mounts/
 - name: Rendering
   href: rendering/
 - name: UI
@@ -19,8 +21,6 @@ items:
   href: actiongraph/
 - name: Audio
   href: audio/
-- name: Animation
-  href: animation/
 - name: Movie Maker
   href: movie-maker/
 - name: Gameplay
