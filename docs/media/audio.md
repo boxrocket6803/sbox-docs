@@ -7,24 +7,9 @@ updated: 2026-04-22
 
 # Audio
 
-s&box has a full audio system including 2D/3D sound playback, music, voice chat, positional audio, an audio effects pipeline, and lip sync support.
-
-## Components
-
-Audio components can be added to any GameObject in the editor.
-
-| Component | Description |
-|---|---|
-| `SoundPointComponent` | Plays a sound at a point in the world |
-| `SoundBoxComponent` | Plays a sound within a box area |
-| `SoundscapeTrigger` | Plays a soundscape when the listener enters the trigger area |
-| `AudioListener` | Overrides where the client hears audio from, instead of the camera |
-| `LipSyncComponent` | Drives morphs with lipsync from sounds |
-| `VoiceComponent` | Records and transmits microphone input to other players |
-
 ## MusicPlayer
 
-`MusicPlayer` is for music tracks and streaming audio that need programmatic control over playback, positioning, or visualization. Use Sound components for in-game sound effects.
+`MusicPlayer` is for music tracks and streaming audio that need programmatic control over playback, positioning, or visualization. For in-game sound effects and Sound components, see [Sound](../../sound/index.md).
 
 ```csharp
 var music = MusicPlayer.Play( FileSystem.Mounted, "music/theme.ogg" );

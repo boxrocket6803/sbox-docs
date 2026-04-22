@@ -25,6 +25,8 @@ items:
   href: movie-maker/
 - name: Media
   href: media/
+- name: Sound
+  href: sound/
 - name: Gameplay
   href: gameplay/
 - name: Services
