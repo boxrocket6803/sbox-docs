@@ -12,7 +12,7 @@ updated: 2025-04-15
 You can find information about how to install and use SteamCMD here <https://developer.valvesoftware.com/wiki/SteamCMD> to install the s&box Dedicated Server.
 
 
-Once SteamCMD has been installed, you can install or update the [s&box Server](https://steamdb.info/app/1892930/info/) by running the following command in Windows Terminal from the directory you installed SteamCMD.
+Once SteamCMD has been installed, you can install or update the [s&box Server](https://steamdb.info/app/1892930/info/) by running the following command from the directory you installed SteamCMD.
 
 `./steamcmd +login anonymous +app_update 1892930 validate +quit`
 
@@ -24,16 +24,27 @@ You can use `-beta staging` to host a server on the staging branch, this might n
 
 # Running the Server
 
-Once installed, the default directory would be `steamcmd/steamapps/common/Dedicated Server` and you can create a simple .bat file there that will start your server. Here's an example, you could create a file called `Run-Server.bat` that looks like this:
+Once installed, the default directory would be `steamcmd/steamapps/common/sbox dedicated server`.
 
+## Windows
 
-```csharp
+You can create a simple `.bat` file that will start your server. Here's an example, you could create a file called `Run-Server.bat` that looks like this:
+
+```
 echo off
-sbox-server.exe +game facepunch.walker garry.scenemap +hostname My Dedicated Server
+sbox-server.exe +game facepunch.sandbox facepunch.flatgrass +hostname My Dedicated Server
 ```
 
+## Linux
 
-When run, this will load the `facepunch.walker` game with the `garry.scenemap` map and the title would be *My Dedicated Server*.
+The server runs on .NET, so you'll need the [.NET Runtime](https://dotnet.microsoft.com/en-us/download) installed. You can create a shell script to start your server, for example `run-server.sh`:
+
+```bash
+#!/bin/bash
+./sbox-server.exe +game facepunch.sandbox facepunch.flatgrass +hostname "My Dedicated Server"
+```
+
+When run, this will load the `facepunch.sandbox` game with the `facepunch.flatgrass` map and the title would be *My Dedicated Server*.
 
 
 # Configuration
