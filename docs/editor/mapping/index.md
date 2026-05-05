@@ -9,6 +9,10 @@ updated: 2026-05-05
 
 Mapping is where you build, shape, and texture playable spaces in the editor. This section covers the mapping workflow, toolset, and setup needed to start creating levels quickly.
 
+:::info
+This section covers **Scene Mapping** in the s&box editor. It is not a guide for creating classic Hammer map files.
+:::
+
 ## Entering mapping mode
 
 In the top-left of the scene view is a mode dropdown. Click it and select **Mapping**, or simply press **M**.
@@ -57,4 +61,5 @@ Once you have a selection, move modes control how you transform it. They are ava
 ## Next steps
 
 - Building maps for a specific game? Follow [Mapping For Games](./mappingforgames.md).
+- Ready to share your work? Follow [Publish](./publish.md).
 - Need keybinds while working? Keep [Shortcuts](./shortcuts.md) open.
