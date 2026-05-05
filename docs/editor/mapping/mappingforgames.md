@@ -39,7 +39,10 @@ This guide shows how to set up a map project so mappers can build maps for a spe
 
 ![](./images/mapping-for-games-06.png)
 
-> Note: You may need to remove the camera in your scene before testing, this is because most games will spawn their own camera in.
+:::info
+You may need to remove the camera in your scene before testing, this is because most games will spawn their own camera in.
+
+:::
 
 ## Using game components and prefabs
 

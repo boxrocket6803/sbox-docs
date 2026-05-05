@@ -9,7 +9,10 @@ updated: 2026-05-05
 
 This page breaks down the mapping editor's UI and gives an overview of the tools available to you.
 
-> Many shortcuts in the mapping editor intentionally match Hammer, so if you have a background in Source engine mapping you should feel right at home. See the [Shortcuts](./shortcuts.md) page for a full reference.
+:::info
+Many shortcuts in the mapping editor intentionally match Hammer, so if you have a background in Source engine mapping you should feel right at home. See the [Shortcuts](./shortcuts.md) page for a full reference.
+
+:::
 
 ## Entering mapping mode
 
