@@ -1,11 +1,11 @@
 ---
-title: "Mapping For Games"
+title: "Games"
 icon: "🗺️"
 created: 2026-05-05
 updated: 2026-05-05
 ---
 
-# Mapping For Games
+# Games
 
 ## Setting up a project
 

@@ -1,6 +1,6 @@
 items:
-- name: Mapping For Games
-  href: mappingforgames.md
+- name: Games
+  href: games.md
 - name: Publish
   href: publish.md
 - name: Shortcuts
