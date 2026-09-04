@@ -13,6 +13,8 @@ items:
   href: network-helper.md
 - name: Network Visibility
   href: network-visibility.md
+- name: Host Migration
+  href: host-migration.md
 - name: Networked Objects
   href: networked-objects.md
 - name: Ownership

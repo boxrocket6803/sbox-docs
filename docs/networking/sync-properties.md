@@ -31,7 +31,7 @@ These properties are controlled by the owner of the object, therefore only the o
 
 # Supported Types
 
-`[Sync]` properties support unmanaged types, and string. You can't synchronize every class with them, but any value type including structs will be fine. `int`, `bool`, `Vector3`, `float` are all examples of valid types.  We also support serializing specific classes such as `GameObject`, `Component`, `GameResource`.
+`[Sync]` properties support unmanaged types, and string. You can't synchronize every class with them, but any value type including structs will be fine. `int`, `bool`, `Vector3`, `float` are all examples of valid types.  We also support serializing specific classes such as `GameObject`, `Component`, `GameResource` and `Connection`.
 
 
 # Detecting Changes

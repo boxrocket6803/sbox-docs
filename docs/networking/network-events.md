@@ -2,7 +2,7 @@
 title: "Network Events"
 icon: "📆"
 created: 2023-11-25
-updated: 2026-08-03
+updated: 2026-09-04
 ---
 
 # Network Events
@@ -55,7 +55,8 @@ The interface `INetworkListener` has multiple methods that you can optionally ov
 | `OnConnected` | The client has connected to the server. They're about to start handshaking, in which they'll load the game and download all the required packages. |
 | `OnDisconnected` | The client has disconnected from the server. |
 | `OnActive` | The client is fully connected and completed the handshake. After this call they will close the loading screen and start playing. |
-| `OnBecameHost` | The previous host left and you are now the host. |
+| `OnBecameHost` | The previous host left and you are now the host. Called on the new host only. |
+| `OnHostChanged` | The previous host left and another player took over. Called on everyone except the new host. |
 
 ## AcceptConnection
 
@@ -82,14 +83,28 @@ public bool AcceptConnection( Connection channel, ref string reason )
 
 ## OnBecameHost
 
-In a lobby, the host can leave. When that happens one of the remaining clients is promoted, and gets this callback with the connection of the host that left. This is where you'd pick up anything only the host was doing.
+In a lobby, the host can leave. When that happens one of the remaining clients is promoted. It loads the old host's snapshot as the new host and gets this callback with the connection of the host that left, followed by `OnDisconnected` for that connection. All synced state is already in place; this is where you restart anything only the host was *doing*, like a round loop.
 
 ```csharp
 public void OnBecameHost( Connection previousHost )
 {
 	Log.Info( $"{previousHost.DisplayName} left, we're the host now" );
+	_ = RunRoundLoop();
 }
 ```
+
+## OnHostChanged
+
+Everyone else gets this once their scene has been rebuilt from the new host's snapshot. Useful for a notice, or to drop anything you cached about the old host.
+
+```csharp
+public void OnHostChanged( Connection previousHost, Connection newHost )
+{
+	Log.Info( $"{newHost.DisplayName} is the host now" );
+}
+```
+
+See [Host Migration](/networking/host-migration.md) for what survives a handoff and what needs your help.
 
 
 # INetworkSpawn

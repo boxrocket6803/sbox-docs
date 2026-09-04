@@ -2,7 +2,7 @@
 title: "Testing Multiplayer"
 icon: "🧪"
 created: 2023-11-24
-updated: 2024-03-28
+updated: 2026-09-04
 ---
 
 # Testing Multiplayer
@@ -32,6 +32,12 @@ You can continue to code on your main instance, with the game running and the ot
 
 If you need to reconnect, you can do this via the `reconnect` command.
 
+
+# Host migration
+
+Choose `Migrate host to new instance` from the same menu. An instance is spawned, joins, and the editor hands the game to it once it's in. Any other instances rejoin it. With instances already joined, plain `Disconnect` does the handoff too. See [Host Migration](/networking/host-migration.md) for what to look for.
+
+If a new instance never connects, Windows may have reserved the loopback port the instances use. Run `net_local_port 45333` in the editor console before hosting.
 
 # Joining manually
 

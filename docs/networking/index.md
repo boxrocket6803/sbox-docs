@@ -2,7 +2,7 @@
 title: "Networking & Multiplayer"
 icon: "🧑‍🤝‍🧑"
 created: 2023-11-24
-updated: 2026-06-02
+updated: 2026-09-04
 ---
 
 # Networking & Multiplayer
@@ -54,6 +54,10 @@ React to players joining, leaving, and objects spawning in the scene.
 ### [Network Visibility](/networking/network-visibility.md)
 
 Control whether a networked object is sent to a specific player.
+
+### [Host Migration](/networking/host-migration.md)
+
+When the host leaves, another player takes over from a snapshot. What survives, what doesn't, and how to keep your game running through it.
 
 ### [Custom Snapshot Data](/networking/custom-snapshot-data.md)
 
