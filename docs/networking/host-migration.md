@@ -133,14 +133,14 @@ A plain "previous state" field used to detect transitions resets too. Sync it, o
 
 ## Warnings
 
-The analyzers that ship with the engine flag these patterns in Visual Studio and Rider. They're off for projects that destroy the lobby when the host leaves.
+The analyzers that ship with the engine warn about these patterns in Visual Studio and Rider. They're off for projects that destroy the lobby when the host leaves.
 
-| Id | Level | Catches |
-|----|-------|---------|
-| `SB3002` | Warning | An unsynced `Connection` stored on a component or system |
-| `SB3003` | Info | A plain `TimeSince` or `TimeUntil` used by host-gated code |
-| `SB3004` | Info | `Invoke` on a component with synced state |
-| `SB3005` | Info | A `[Sync]` property written after an `await` |
+| Id | Catches |
+|----|---------|
+| `SB3002` | An unsynced `Connection` stored on a component or system |
+| `SB3003` | A plain `TimeSince` or `TimeUntil` used by host-gated code |
+| `SB3004` | `Invoke` on a component with synced state |
+| `SB3005` | A `[Sync]` property written after an `await` |
 
 
 ## Opting Out
