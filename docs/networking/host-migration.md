@@ -2,7 +2,7 @@
 title: "Host Migration"
 icon: "🔁"
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-07
 ---
 
 # Host Migration
@@ -11,7 +11,9 @@ In a lobby one player is the host. When they leave, the game is handed to anothe
 
 If the host crashes or loses connection there is nothing to hand over, so the game ends for everyone.
 
-The whole page in one example. **State** moves to the new host. **Running code** does not.
+This changes the default host-leave behaviour: a graceful departure now transfers the game state to another player. Set **Destroy Lobby When Host Leaves** to end the session instead. `AutoSwitchToBestHost` is now a no-op; hosts are no longer switched automatically while they are still playing.
+
+**State** moves to the new host. **Code running on the old host** does not.
 
 ```csharp
 // Fine. The value is state, the new host has it and keeps counting down.
@@ -31,7 +33,10 @@ protected override void OnUpdate()
 
 protected override void OnStart()
 {
-	_ = EndRoundLater();
+	if ( Networking.IsHost && RoundEnds )
+	{
+		_ = EndRoundLater();
+	}
 }
 
 async Task EndRoundLater()
@@ -48,10 +53,12 @@ The same goes for a plain field instead of `[Sync]`, an `Invoke`, or a `static`.
 
 1. The leaving host picks the longest connected player and tells everyone.
 2. It sends that player a snapshot of the game and waits for them to confirm. Everything sent before it, RPCs included, arrives first.
-3. The new host loads the snapshot as the host. It gets `OnBecameHost`, then `OnDisconnected` for the player who left.
-4. Everyone else rebuilds their scene from the new host and gets `OnHostChanged`.
+3. The new host applies the snapshot to its running scene. It gets `OnBecameHost`, then `OnDisconnected` for the player who left.
+4. Everyone else brings their networked objects in line with the new host and gets `OnHostChanged`.
 
-`OnActive` is not called again for players already in the game, and `ISceneStartup.OnHostInitialize` does not run on the new host.
+Inside `OnBecameHost`, the previous host is still in the connection list. After that callback returns, the previous host is removed and `OnDisconnected` runs. Do not treat their presence during `OnBecameHost` as meaning they are staying in the game.
+
+Nobody's scene is reloaded. Local objects, pending `Invoke`s and running code on every remaining machine carry on; only what the old host was doing is gone. `OnActive` is not called again for players already in the game, and `ISceneStartup.OnHostInitialize` does not run on the new host.
 
 
 ## What Survives
@@ -60,9 +67,9 @@ The same goes for a plain field instead of `[Sync]`, an `Invoke`, or a `static`.
 |----------|------|
 | `[Sync]` properties, on components and `GameObjectSystem`s | Plain fields and properties |
 | `[Property]` values | `static` fields |
-| Networked objects and their owners | Pending `Invoke` calls |
-| `INetworkSnapshot` data | Running `async` methods |
-| `Time.Now` | The new host's own local-only objects |
+| Networked objects and their owners | Pending `Invoke` calls on the host |
+| `INetworkSnapshot` data | Running `async` methods on the host |
+| `Time.Now` | |
 | Connection permissions and replicated ConVars | |
 
 Anything a snapshot carries survives. Anything that was code running on the old host does not.
@@ -141,6 +148,9 @@ The analyzers that ship with the engine warn about these patterns in Visual Stud
 | `SB3003` | A plain `TimeSince` or `TimeUntil` used by host-gated code |
 | `SB3004` | `Invoke` scheduled by host-only code |
 | `SB3005` | A `[Sync]` property written after an `await` |
+| `SB3006` | An `await` or async/task-returning call in host-only code |
+
+SB3006 catches the `EndRoundLater()` call above, even when the helper does not directly write a synced property. It recognizes host checks, authority checks (`!IsProxy`) and `[Rpc.Host]` methods. It does not follow arbitrary call chains or assume that all async code is host-only.
 
 
 ## Opting Out
