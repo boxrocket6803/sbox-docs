@@ -139,7 +139,7 @@ The analyzers that ship with the engine warn about these patterns in Visual Stud
 |----|---------|
 | `SB3002` | An unsynced `Connection` stored on a component or system |
 | `SB3003` | A plain `TimeSince` or `TimeUntil` used by host-gated code |
-| `SB3004` | `Invoke` on a component with synced state |
+| `SB3004` | `Invoke` scheduled by host-only code |
 | `SB3005` | A `[Sync]` property written after an `await` |
 
 
